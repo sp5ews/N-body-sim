@@ -1,0 +1,7 @@
+{
+	"InstallScripts" : 
+	[
+		"/home/zbyszek/N-body-sim/build/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

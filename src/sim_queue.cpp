@@ -99,7 +99,7 @@ void simQueue::drawUI(GLFWwindow *window)
                 ImVec4 color = {1, 1, 1, 1};
                 ImPlot3D::PushStyleColor(ImPlot3DCol_Line, color);
                 ImPlot3D::SetNextMarkerStyle(ImPlot3DMarker_Cross, -1, color, -1, color);
-                ImPlot3D::PlotScatter("Center of Mass", &disp.data()[0], &disp.data()[disp.size() / 3 + rcd], &disp.data()[2 * disp.size() / 3 + rcd], 1);
+                ImPlot3D::PlotScatter("Center of Mass", &disp.data()[rcd], &disp.data()[disp.size() / 3 + rcd], &disp.data()[(2 * disp.size() / 3) + rcd], 1);
                 ImPlot3D::PlotLine("##com_tr", &disp.data()[0], &disp.data()[disp.size() / 3], &disp.data()[2 * disp.size() / 3], offset);
                 ImPlot3D::PopStyleColor();
                 color.w = 0.5;

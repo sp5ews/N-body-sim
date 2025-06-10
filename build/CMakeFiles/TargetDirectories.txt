@@ -1,0 +1,3 @@
+/home/zbyszek/N-body-sim/build/CMakeFiles/n-body_sim.dir
+/home/zbyszek/N-body-sim/build/CMakeFiles/edit_cache.dir
+/home/zbyszek/N-body-sim/build/CMakeFiles/rebuild_cache.dir
