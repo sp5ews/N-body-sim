@@ -30,10 +30,3 @@ public:
     double mass;
     int dim;
 };
-
-class display_PP : public PP
-{
-public:
-    double color[3];
-    double display_size;
-};

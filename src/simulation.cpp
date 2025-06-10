@@ -42,7 +42,6 @@ void NBodySimulator::updatePoints(double dt, double G)
         PP *p = &points[i];
         for (int n = 0; n < p->dim; n++)
             p->position[n] += p->velocity[n] * dt + pow(dt, 2.0) / 2.0 * (forces[i][n] / p->mass);
-        //trails[i].addPoint(p->position);
     }
     std::vector<std::vector<double>> new_forces = calcForces(G);
     for (int i = 0; i < points.size(); i++)

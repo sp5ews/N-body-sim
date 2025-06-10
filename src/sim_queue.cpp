@@ -65,7 +65,7 @@ void simQueue::drawUI(GLFWwindow *window)
     int width, height;
     glfwGetWindowSize(window, &width, &height);
     ImGui::SetNextWindowPos({0, 0});
-    ImGui::SetNextWindowSize({width, height});
+    ImGui::SetNextWindowSize({(float)width, (float)height});
     if (ImGui::Begin("main", nullptr, ImGuiWindowFlags_NoResize | ImGuiWindowFlags_NoDecoration | ImGuiWindowFlags_NoBringToFrontOnFocus))
     {
         if (ImPlot3D::BeginPlot("##main", ImVec2(-1, -1)))
