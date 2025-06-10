@@ -1,0 +1,28 @@
+{
+    "plot":{
+        "size":[-3, 3, -3, 3, -3, 3],
+        "colormap" : 5,
+        "show_com":true
+    },
+    "simulation":{
+        "G":1,
+        "dt":0.01
+    },
+    "bodies":[
+        {
+            "mass":2,
+            "position":[1,0,1],
+            "velocity":[0,0,-1]
+        },
+        {
+            "mass":1,
+            "position":[-1,0,0],
+            "velocity":[1,1,0]
+        },
+        {
+            "mass":5,
+            "position":[0,0, 0],
+            "velocity":[-0.2, -0.2, 0.4]
+        }
+    ]
+}
